@@ -1,0 +1,22 @@
+{
+  "configuration": {
+    "status": "warn",
+    "name": "Test",
+    "appenders": {
+      "Console": {
+        "name": "STDOUT",
+        "PatternLayout": {
+          "pattern": "%d{dd.MM.yyyy HH:mm:ss.SSS} [%t] %-5level %logger{36} -%X - %enc{%msg}{JSON}%n"
+        }
+      }
+    },
+    "loggers": {
+      "root": {
+        "level": "info",
+        "AppenderRef": {
+          "ref": "STDOUT"
+        }
+      }
+    }
+  }
+}
