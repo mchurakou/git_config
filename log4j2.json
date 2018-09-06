@@ -12,7 +12,7 @@
     },
     "loggers": {
       "root": {
-        "level": "inof",
+        "level": "info",
         "AppenderRef": {
           "ref": "STDOUT"
         }
