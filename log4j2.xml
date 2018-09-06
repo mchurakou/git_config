@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="console-log" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss.SSS} [%t] %-5level %logger{36} -%X - %enc{%msg}{JSON}%n"/>
+        </Console>
+
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+
+            <AppenderRef ref="console-log"/>
+
+        </Root>
+    </Loggers>
+</Configuration>
