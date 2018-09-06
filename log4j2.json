@@ -12,7 +12,7 @@
     },
     "loggers": {
       "root": {
-        "level": "warn",
+        "level": "error",
         "AppenderRef": {
           "ref": "STDOUT"
         }
