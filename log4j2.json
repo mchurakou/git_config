@@ -5,7 +5,7 @@
     
     "status": "warn",
 
-    "name":"Test2",
+    "name":"Test3",
     "appenders": {
       "Console": {
         "name": "STDOUT",
@@ -16,7 +16,7 @@
     },
     "loggers": {
       "root": {
-        "level": "warn",
+        "level": "info",
         "AppenderRef": {
           "ref": "STDOUT"
         }
