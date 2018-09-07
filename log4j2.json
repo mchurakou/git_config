@@ -3,7 +3,7 @@
   "configuration": {
     
     
-    "status": "warn",
+    "status": "error",
 
     "name":"Test3",
     "appenders": {
