@@ -2,7 +2,7 @@
 
   "configuration": {
     
-    "name": "Test",
+    "name": "Test2"
     "status": "warn",
     "appenders": {
       "Console": {
