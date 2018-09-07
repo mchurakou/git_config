@@ -3,7 +3,7 @@
   "configuration": {
     
     
-    "status": "error",
+    "status": "warn",
 
     "name":"Test3",
     "appenders": {
@@ -16,7 +16,7 @@
     },
     "loggers": {
       "root": {
-        "level": "info",
+        "level": "error",
         "AppenderRef": {
           "ref": "STDOUT"
         }
