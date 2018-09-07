@@ -1,7 +1,9 @@
 {
+
   "configuration": {
-    "status": "warn",
+    
     "name": "Test",
+    "status": "warn",
     "appenders": {
       "Console": {
         "name": "STDOUT",
